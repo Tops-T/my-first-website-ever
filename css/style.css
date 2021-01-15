@@ -1,0 +1,318 @@
+@font-face{
+		
+		font-family: "Knight";
+		src: url("../fonts/Supernatural_Knight.ttf");
+}
+
+@font-face {
+    font-family: "Timeless";
+    src: url("../fonts/Timeless.ttf");
+   
+}
+
+
+@font-face{
+	
+	font-family: "chopshop";
+	src: url("../fonts/Chopshop-Regular.ttf");
+	
+}
+
+
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+    background-image: url("../media/images/cube.png");
+    background-size: auto;
+}
+
+
+
+.header{
+    padding: 0px 0px 0px 0px;
+    height: 100px;
+    text-align: center;
+    
+}
+
+.header a{
+    color: rgb(66,93,133);
+	font-family: Knight;
+	font-size: 50px;
+    text-align: center;
+    background-color: #C2CBCE;
+	text-decoration: none;
+
+    
+}
+.header h1{
+	
+	color: #1240AB;
+	font-family: Knight;
+	font-size: 50px;
+    text-align: center;
+    background-color: #C2CBCE;
+	text-decoration: none;
+
+}
+
+.nav {
+    height: 70px;
+    background: #E8F3F8;
+    text-align: center;
+    list-style: none;
+    border-style:double;
+    border-color: #000;
+    border-radius: 10px;
+	margin-top: 50px;
+}
+
+.nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    font-family: chopshop;
+    font-size: 20px;
+}
+
+.nav>ul>li>a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    color: rgb(66,93,133);
+	   
+}
+.nav ul li a:hover{
+    color:  #9D9A94;
+}
+.nav ul li a.on{
+    color: #1240AB;
+	font-size: 35px;
+    
+}
+.content{
+      background-color: #EDF7FF;
+      font-family: Timeless;
+      padding: 0px 30px 20px;
+}
+
+.content h2{
+		text-align: center;
+		font-family: Timeless;
+		padding: 20px 0px 0px 0px;
+		font-size: 40px;
+		letter-spacing: 0.1em;
+		
+}
+.album h2{
+		text-align: center;
+		font-family: Timeless;
+		padding: 20px 0px 0px 0px;
+		font-size: 40px;
+		letter-spacing: 0.1em;
+		
+}
+
+.lyrics {
+    text-align: center;
+}
+
+.lyrics ol li{
+      text-align: center;
+      list-style: none;
+}
+
+
+.lyrics ol li a{
+    list-style: none;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+}
+.lyrics ol li a:hover{
+    color: #4557D2
+}
+
+
+footer {
+    color: rgb(66,93,133);
+    background-color: #C2CBCE;
+    font-family: chopshop;
+    font-size: 20px;
+    margin-top: 20px;
+}
+#album {
+    display: block;
+    float: left;
+    clear: left;
+}
+.album{
+	  height: 1700px;
+      background-color: #EDF7FF;
+      font-family: Timeless;
+      padding: 0px 30px 20px;
+}
+
+img.large {
+    width: 250px;
+    height: 250px;
+    float: left;
+    overflow-y: auto;
+    margin: 10px 30px;
+}
+img.about{
+    display: block;
+    margin: 0 auto;
+}
+img.media{
+	margin-left:20px;
+	width: 350px;
+    height: 350px;
+	float: left;
+	
+}
+.album ol{
+	margin-left:50px;
+	list-style-type: decimal;
+	float: left;
+	font-size: 20px;
+	
+}
+.clear {
+	clear: both;
+}
+
+.tour {
+    margin-left: 30px;
+	width: 400px;
+    height: 550px;
+}
+.place {
+	font-size: 20px;
+	margin-left: 30px;
+	
+}
+.location{
+	 font-size: 20px;
+	 margin-left: 30px;
+	
+	
+}
+
+.tickets a{
+    margin: 400px;
+	color: #4557D2;
+    text-decoration: none;
+}
+.tickets1 a{
+    margin: 280px;
+	color: #4557D2;
+    text-decoration: none;
+}
+.tickets2 a{
+    margin: 480px;
+	color: #4557D2;
+    text-decoration: none;
+}
+.tickets3 a{
+    margin: 360px;
+	color: #4557D2;
+    text-decoration: none;
+}
+.tickets4 a{
+    margin: 260px;
+	color: #4557D2;
+    text-decoration: none;
+}
+.tickets5 a{
+    margin: 390px;
+	color: #4557D2;
+    text-decoration: none;
+}
+
+.tickets a:hover{
+
+	color: #5BFBB5;
+}
+.tickets1 a:hover{
+
+	color: #5BFBB5;
+}
+.tickets2 a:hover{
+
+	color: #5BFBB5;
+}
+.tickets3 a:hover{
+
+	color: #5BFBB5;
+}
+.tickets4 a:hover{
+
+	color: #5BFBB5;
+}
+
+.tickets5 a:hover{
+
+	color: #5BFBB5;
+}
+
+button {
+	border-radius: 10px;
+    text-align: left;
+    background-color: #4557D2;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+button:hover {
+	background-color: #3e8e41;
+}
+
+.return a{
+
+	color: #4557D2;
+    text-decoration: none;
+	font-size: 20px;
+}
+.return a:hover{
+	color: #3e8e41;
+}
+
+.name{
+	margin-bottom: 10px;
+	margin-left:30px;
+	width: 250px;
+}
+.email{
+	margin-bottom: 10px;
+	margin-left:65px;
+	width: 250px;
+}
+.address{
+	margin-bottom: 10px;
+	margin-left:50px;
+	width: 250px;
+}
+
+.city{
+	margin-bottom: 10px;
+	margin-left:67px;
+	width: 250px;
+}
+.card{
+	margin-bottom: 10px;
+	margin-left: 77px;
+	width: 250px;
+}
+
